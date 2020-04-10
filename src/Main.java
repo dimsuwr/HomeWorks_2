@@ -1,3 +1,5 @@
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -60,9 +62,9 @@ public class Main {
             }
             System.out.println("Максимальный элемент = " + max);
             System.out.println("Минимальный элемент = " + min);
-
+        System.out.println();
         }
-
+            
 
     }
 
